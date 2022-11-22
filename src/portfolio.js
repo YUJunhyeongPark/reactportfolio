@@ -16,7 +16,7 @@ const greet = {
   subTitle:
   "A individual who always thrives to work on end to end products to develop sustainable and scalable systems and programs.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/file/d/17nxTg2PYSUGC8UpLuvn6-5bLxDXcALSr/view?usp=sharing",
   portfolio_repository: "https://github.com/YUJunhyeongPark/reactportfolio",
   githubProfile: "https://github.com/YUJunhyeongPark",
 };
