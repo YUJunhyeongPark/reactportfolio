@@ -1,7 +1,3 @@
-const settings = {
-  isSplash: true,
-};
-
 const seo = {
   title: "Junhyeong's Portfolio",
   description:
@@ -13,7 +9,6 @@ const seo = {
   },
 };
 
-//Home Page
 const greet = {
   title: "Junhyeong Park",
   logo_name: "JunhyeongPark",
@@ -22,7 +17,7 @@ const greet = {
   "A individual who always thrives to work on end to end products to develop sustainable and scalable systems and programs.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository: "https://github.com/YUJunhyeongPark/reactportfolio",
   githubProfile: "https://github.com/YUJunhyeongPark",
 };
 
@@ -66,9 +61,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "- Building responsive website front end using React-Redux",
-        "- Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "- Building responsive website front end using React",
         "- Creating application backend in Django",
+        "- Building desktop applications based on Java",
       ],
       softwareSkills: [
         {
@@ -138,8 +133,6 @@ const degrees = {
     {
       title: "York University",
       subtitle: "B.Sc. in Computer Science",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
       descriptions: [
         "- Studied basic software engineering subjects like DS, Algorithms, DBMS, OS, AI etc.",
         "- Chosen for entry scholarship."
@@ -160,7 +153,7 @@ const projectsHeader = {
 const contactPage = {
   contactSection: {
     title: "Contact",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "",
     description:
       "I am available on Facebook and Discord. I'm willing to join any projects with the use of React, Java, Javascript and Python.",
   },
@@ -178,7 +171,6 @@ const contactPage = {
 };
 
 export {
-  settings,
   seo,
   greet,
   SNSLinks,
