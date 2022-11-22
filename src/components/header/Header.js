@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./Header.css";
-import { Fade } from "react-reveal";
+import { Roll } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greet, settings } from "../../portfolio.js";
+import { greet } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
 
 const onMouseEnter = (event, color) => {
@@ -18,13 +18,12 @@ const onMouseOut = (event) => {
 class Header extends Component {
   render() {
     const theme = this.props.theme;
-    const link = settings.isSplash ? "/splash" : "home";
     return (
-      <Fade top duration={1000} distance="20px">
+      <Roll top duration={1000} distance="20px">
         <SeoHeader />
         <div>
           <header className="header">
-            <NavLink to={link} tag={Link} className="logo">
+            <NavLink to="" tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greet.logo_name}
@@ -87,7 +86,7 @@ class Header extends Component {
             </ul>
           </header>
         </div>
-      </Fade>
+      </Roll>
     );
   }
 }

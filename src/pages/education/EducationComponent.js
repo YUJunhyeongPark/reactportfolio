@@ -5,7 +5,7 @@ import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
-import { Bounce } from "react-reveal";
+import { Fade } from "react-reveal";
 
 class Education extends Component {
   render() {
@@ -14,7 +14,7 @@ class Education extends Component {
       <div className="education-main">
         <Header theme={this.props.theme} />
         <div className="basic-education">
-          <Bounce bottom duration={1500} distance="30px">
+          <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
                 {/* <img
@@ -29,7 +29,7 @@ class Education extends Component {
                 </h1>
               </div>
             </div>
-          </Bounce>
+          </Fade>
           <Educations theme={this.props.theme} />
         </div>
         <Footer theme={this.props.theme} />
