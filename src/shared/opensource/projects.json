@@ -1,1 +1,66 @@
-{"data":[{"id":"526462674","name":"KoolKoats","createdAt":"2022-08-19","url":"https://github.com/YUJunhyeongPark/koolcoats","description":"A website designed for online shopping experience for coats. Visit the website here : ","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"Python","iconifyClass":"logos-python"}]},{"id":"545209606","name":"reactportfolio","createdAt":"2020-10-03","url":"https://github.com/YUJunhyeongPark/reactportfolio","description":"This project was done to build a scalable portfolio using react. You can visit project by:","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=","name":"Legacy bot","createdAt":"2022-06-30","url":"https://github.com/YUJunhyeongPark/legacybot","description":"A discord bot built to support the admins of the servers on member status management, role management etc","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]}]}
+{
+    "data": [
+        {
+            "id": "526462674",
+            "name": "KoolKoats",
+            "createdAt": "2022-08-19",
+            "url": "https://github.com/YUJunhyeongPark/koolcoats",
+            "description": "A website designed for online shopping experience for coats. Visit the website here : ",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "HTML",
+                    "iconifyClass": "logos-html-5"
+                },
+                {
+                    "name": "CSS",
+                    "iconifyClass": "logos-css-3"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                },
+                {
+                    "name": "Python",
+                    "iconifyClass": "logos-python"
+                }
+            ]
+        },
+        {
+            "id": "545209606",
+            "name": "reactportfolio",
+            "createdAt": "2020-10-03",
+            "url": "https://github.com/YUJunhyeongPark/reactportfolio",
+            "description": "This project was done to build a scalable portfolio using react. You can visit project by:",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "HTML",
+                    "iconifyClass": "logos-html-5"
+                },
+                {
+                    "name": "CSS",
+                    "iconifyClass": "logos-css-3"
+                },
+                {
+                    "name": "JavaScript",
+                    "iconifyClass": "logos-javascript"
+                }
+            ]
+        },
+        {
+            "id": "MDEwOlJlcG9zaXRvcnkyNzM1MTI1NTE=",
+            "name": "Legacy bot",
+            "createdAt": "2022-06-30",
+            "url": "https://github.com/YUJunhyeongPark/legacybot",
+            "description": "A discord bot built to support the admins of the servers on member status management, role management etc",
+            "isFork": false,
+            "languages": [
+                {
+                    "name": "Python",
+                    "iconifyClass": "logos-python"
+                }
+            ]
+        }
+    ]
+}
